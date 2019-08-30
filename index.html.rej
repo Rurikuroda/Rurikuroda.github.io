@@ -1,0 +1,47 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -26,6 +26,43 @@
+     <div id="GH"></div>
+     <div id="JS"></div>
+     <div id="J"></div>
+-    <div id="P"></div>
++    <div id="Python">
++        print("===============")
++        print("BMI calculation")
++        print("===============")
++
++        name = input('What your name?：')
++        age = input('How old are you?：')
++        height = input('How tall are you?(cm)：')
++        weight = input('What is your weight?(kg)：')
++        bmi = weight / height * height
++
++        print(name)
++        print(age + "age")
++        print(height + "cm")
++        print(weight + "kg")
++        print("your BMI is " + bmi)
++
++        if bmi < 18.5 :
++            print("Your body mass index is weight deficit.")
++            print("")
++        elif bmi < 24:
++            print("Your body mass index is norm.")
++            print("You are very healthy. Let's keep in shape.")
++        elif bmi < 30:
++            print("Your body mass index is weight over.")
++            print("This is a little bit out of shape. let's start to exercise.")
++        elif bmi < 35:
++            print("Your body mass index is obesity first degree.")  
++            print("")   
++        elif bmi < 40:
++            print("Your body mass index is obesity second degree".)
++            print("")
++        elif bmi >= 40:
++            print("Your body mass index is obesity third degree.")
++            print("")
++        else:    
++            print("Impossible to measure")
++    </div>
+ </body>
+ </html>
+\ No newline at end of file

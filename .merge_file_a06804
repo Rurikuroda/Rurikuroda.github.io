@@ -1,0 +1,81 @@
+*{
+    margin                  : 0px;
+}
+html{
+    scroll-behavior         : smooth;
+}
+#container{
+    width                   :100%;
+    
+}
+/* 
+===========================================
+this is the first section of the html pages
+===========================================    
+ */
+#First{
+    width                   :100%;
+    height                  :1200px;
+    background              :url(../img/12.jpg) center center fixed no-repeat;
+    background-size         :cover;  
+}
+/* 
+---------------------------
+For the menu on each page
+---------------------------
+
+*/
+.nav{
+    font-family             : 'Libre Baskerville', serif;
+    width                   : 500px;
+    position                : fixed;
+    top                     : 30px;
+    right                   : 100px; 
+}
+a{
+    /* Second part of google font */
+    font-family             : 'Libre Baskerville', serif;
+    width                   : 100px;
+    height                  : 30px;
+    padding                 : 15px;
+    font-size               : 2em;
+    color                   : red; 
+
+}
+li{
+    display                 : inline-block;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+}
+/* 
+======================================
+this is the second of the html pages
+======================================
+*/
+#Second{
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+/*  
+======================================
+this is the third of the html pages
+======================================
+*/
+#Python Yuki{
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+/*
+======================================
+this is the Four of the html pages
+======================================
+*/
+#Four{
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
