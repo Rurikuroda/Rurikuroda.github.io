@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="output"></h1>
+    
+    
+    <input type="button" value="factorial" onclick="factoriarize();">
+    <input type="number" id="firstNumber">
+
+    <script>
+    function factoriarize(){
+        var chooseNumber = document.getElementById("firstNumber").value;
+        var num = document.getElementById("firstNumber").value;
+        var num = parseInt(num);
+
+        if(num === 0)
+        return 1;
+        for(var x = num - 1; x >= 1 ; x--){
+            var num = num * x ;
+            document.getElementById("output").innerHTML = 'Fanctorial of ' + chooseNumber + ' is ' + num;
+
+        }
+
+    }
+
+    </script>
+
+
+</body>
+</html>

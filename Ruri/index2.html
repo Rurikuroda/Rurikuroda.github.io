@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <dl>
+        <dt>kg to pound</dt>
+        <dd><input type="number" id="kg" onkeyup="kgtoPounds();"></dd>
+
+        <dt>kg</dt>
+        <dd id="resultkg">pound</dd>
+
+        <dt>pound to kg</dt>
+        <dd><input type="number" id="pound" oninput="poundstoKgs();"></dd>
+
+        <dt>pound</dt>
+        <dd id="resultpound">kg</dd>
+    </dl>
+
+    <script>
+    function kgtoPounds(){
+        var kg = document.getElementById("kg").value;
+        var resultkg = document.getElementById("resultkg");
+        var resultKgtoPounds =　kg * 2;
+
+        resultkg.innerHTML = resultKgtoPounds;
+    }
+    
+    function poundstoKgs(){
+        var pound = document.getElementById("pound").value;
+        var resultpound = document.getElementById("resultpound");
+        var resultPoundstoKgs =　pound * 2;
+
+        resultpound.innerHTML = resultPoundstoKgs;
+    }
+
+    </script>
+</body>
+</html>
